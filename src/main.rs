@@ -31,11 +31,6 @@ fn main() {
             process::exit(1);
         }
     };
-    println!(
-        "Delimiter arg was {} and final is {:?}",
-        delimiter_arg,
-        delimiter
-    );
 
     let stdin = io::stdin();
     let mut buffer = String::new();
